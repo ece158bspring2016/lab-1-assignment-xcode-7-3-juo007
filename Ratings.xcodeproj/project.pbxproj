@@ -15,6 +15,8 @@
 		ABE1A1F51CC5F8B700DE02E4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A1F41CC5F8B700DE02E4 /* Player.swift */; };
 		ABE1A1F71CC5F8EA00DE02E4 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A1F61CC5F8EA00DE02E4 /* SampleData.swift */; };
 		ABE1A1F91CC5FEBD00DE02E4 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1A1F81CC5FEBD00DE02E4 /* PlayersViewController.swift */; };
+		ABE4A1F61CCBF37E007E7A71 /* PlayersDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4A1F51CCBF37E007E7A71 /* PlayersDetailsViewController.swift */; };
+		ABE4A1F81CCC03F9007E7A71 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4A1F71CCC03F9007E7A71 /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		ABE1A1F41CC5F8B700DE02E4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		ABE1A1F61CC5F8EA00DE02E4 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		ABE1A1F81CC5FEBD00DE02E4 /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		ABE4A1F51CCBF37E007E7A71 /* PlayersDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersDetailsViewController.swift; sourceTree = "<group>"; };
+		ABE4A1F71CCC03F9007E7A71 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				ABE1A1F81CC5FEBD00DE02E4 /* PlayersViewController.swift */,
 				ABE1A1E01CC5E0C400DE02E4 /* ViewController.swift */,
 				ABE1A1E21CC5E0C400DE02E4 /* Main.storyboard */,
+				ABE4A1F71CCC03F9007E7A71 /* GamePickerViewController.swift */,
+				ABE4A1F51CCBF37E007E7A71 /* PlayersDetailsViewController.swift */,
 				ABE1A1F41CC5F8B700DE02E4 /* Player.swift */,
 				ABE1A1F61CC5F8EA00DE02E4 /* SampleData.swift */,
 				ABE1A1E51CC5E0C400DE02E4 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 			files = (
 				ABE1A1E11CC5E0C400DE02E4 /* ViewController.swift in Sources */,
 				ABE1A1F51CC5F8B700DE02E4 /* Player.swift in Sources */,
+				ABE4A1F81CCC03F9007E7A71 /* GamePickerViewController.swift in Sources */,
+				ABE4A1F61CCBF37E007E7A71 /* PlayersDetailsViewController.swift in Sources */,
 				ABE1A1DF1CC5E0C400DE02E4 /* AppDelegate.swift in Sources */,
 				ABE1A1F91CC5FEBD00DE02E4 /* PlayersViewController.swift in Sources */,
 				ABE1A1F71CC5F8EA00DE02E4 /* SampleData.swift in Sources */,
@@ -305,6 +313,7 @@
 				ABE1A1EF1CC5E0C400DE02E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
